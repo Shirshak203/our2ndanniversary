@@ -259,31 +259,31 @@ export default function AnniversaryPage() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
           <FadeUp delay={0} className="col-span-2 row-span-2">
-            <PhotoSlot label="Our favourite photo together" src="/images/Favorite_pic.png" aspectRatio="landscape" rotate={-1} />
+            <PhotoSlot label="Our favourite photo together" src="/our2ndanniversary/images/Favorite_pic.png" aspectRatio="landscape" rotate={-1} />
           </FadeUp>
           <FadeUp delay={0.1}>
-            <PhotoSlot label="A sweet memory" src="/images/Sweet_mem.png" aspectRatio="square" rotate={1} />
+            <PhotoSlot label="A sweet memory" src="/our2ndanniversary/images/Sweet_mem.png" aspectRatio="square" rotate={1} />
           </FadeUp>
           <FadeUp delay={0.2}>
-            <PhotoSlot label="Us laughing" src="/images/usss_1.png" aspectRatio="square" rotate={-1.5} />
+            <PhotoSlot label="Us laughing" src="/our2ndanniversary/images/usss_1.png" aspectRatio="square" rotate={-1.5} />
           </FadeUp>
           <FadeUp delay={0.3}>
-            <PhotoSlot label="A special day" src="/images/sp_day.png" aspectRatio="square" rotate={1} />
+            <PhotoSlot label="A special day" src="/our2ndanniversary/images/sp_day.png" aspectRatio="square" rotate={1} />
           </FadeUp>
           <FadeUp delay={0.4}>
-            <PhotoSlot label="My favourite smile" src="/images/Fav_smile.png" aspectRatio="square" rotate={-0.5} />
+            <PhotoSlot label="My favourite smile" src="/our2ndanniversary/images/Fav_smile.png" aspectRatio="square" rotate={-0.5} />
           </FadeUp>
         </div>
 
         <div className="grid grid-cols-3 gap-4 md:gap-5 mt-4 md:mt-5">
           <FadeUp delay={0.1}>
-            <PhotoSlot label="An adventure" src="/images/adventure.png" aspectRatio="portrait" rotate={-1} />
+            <PhotoSlot label="An adventure" src="/our2ndanniversary/images/adventure.png" aspectRatio="portrait" rotate={-1} />
           </FadeUp>
           <FadeUp delay={0.2}>
-            <PhotoSlot label="Pure joy" src="/images/joy.png" aspectRatio="portrait" rotate={0.5} />
+            <PhotoSlot label="Pure joy" src="/our2ndanniversary/images/joy.png" aspectRatio="portrait" rotate={0.5} />
           </FadeUp>
           <FadeUp delay={0.3}>
-            <PhotoSlot label="Together always" src="/images/together.png" aspectRatio="portrait" rotate={-0.5} />
+            <PhotoSlot label="Together always" src="/our2ndanniversary/images/together.png" aspectRatio="portrait" rotate={-0.5} />
           </FadeUp>
         </div>
       </section>
@@ -381,7 +381,7 @@ export default function AnniversaryPage() {
 
           <FadeUp>
             <div className="grid md:grid-cols-2 gap-10 items-center">
-              <PhotoSlot label="Where we first met" src="/images/first_meet.png" aspectRatio="portrait" rotate={-2} />
+              <PhotoSlot label="Where we first met" src="/our2ndanniversary/images/first_meet.png" aspectRatio="portrait" rotate={-2} />
               <div className="space-y-5">
                 <p className="font-script text-rose-400 text-2xl">The First Date</p>
                 <p className="font-display text-lg leading-relaxed font-light" style={{ color: "#4a3040" }}>
@@ -395,7 +395,7 @@ export default function AnniversaryPage() {
           </FadeUp>
 
           <FadeUp>
-            <PhotoSlot label="Our first photo together" src="/images/first_phto.png" aspectRatio="wide" />
+            <PhotoSlot label="Our first photo together" src="/our2ndanniversary/images/first_phto.png" aspectRatio="wide" />
           </FadeUp>
 
           <FadeUp className="max-w-3xl mx-auto">
@@ -428,12 +428,12 @@ export default function AnniversaryPage() {
           <FadeUp>
             <p className="font-script text-rose-400 text-2xl text-center mb-8">More Memories of Our Journey</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <PhotoSlot label="Early days photo" src="/images/Early_girl.png" aspectRatio="square" rotate={1} />
-              <PhotoSlot label="A first adventure" src="/images/ganga_ghat.png" aspectRatio="square" rotate={-1} />
+              <PhotoSlot label="Early days photo" src="/our2ndanniversary/images/Early_girl.png" aspectRatio="square" rotate={1} />
+              <PhotoSlot label="A first adventure" src="/our2ndanniversary/images/ganga_ghat.png" aspectRatio="square" rotate={-1} />
               <PhotoSlot label="Just us" src="/images/mine.png" aspectRatio="square" rotate={1.5} />
-              <PhotoSlot label="A favourite place" src="/images/fav_place.png" aspectRatio="square" rotate={-0.5} />
-              <PhotoSlot label="That moment" src="/images/moment.png" aspectRatio="square" rotate={1} />
-              <PhotoSlot label="The beginning of us" src="/images/uss_2.png" aspectRatio="square" rotate={-1.5} />
+              <PhotoSlot label="A favourite place" src="/our2ndanniversary/images/fav_place.png" aspectRatio="square" rotate={-0.5} />
+              <PhotoSlot label="That moment" src="/our2ndanniversary/images/moment.png" aspectRatio="square" rotate={1} />
+              <PhotoSlot label="The beginning of us" src="/our2ndanniversary/images/uss_2.png" aspectRatio="square" rotate={-1.5} />
             </div>
           </FadeUp>
 
@@ -482,17 +482,17 @@ export default function AnniversaryPage() {
                 </p>
               </div>
               <div className="md:col-span-2">
-                <PhotoSlot label="Building a life together" src="/images/build_life.png" aspectRatio="portrait" rotate={2} />
+                <PhotoSlot label="Building a life together" src="/our2ndanniversary/images/build_life.png" aspectRatio="portrait" rotate={2} />
               </div>
             </div>
           </FadeUp>
 
           <FadeUp>
             <div className="grid grid-cols-4 gap-3">
-              <PhotoSlot label="Memory 1" src="/images/mem1.png" aspectRatio="portrait" rotate={-1.5} />
-              <PhotoSlot label="Memory 2" src="/images/mem2.png" aspectRatio="portrait" rotate={1} />
-              <PhotoSlot label="Memory 3" src="/images/mem3.png" aspectRatio="portrait" rotate={-1} />
-              <PhotoSlot label="Memory 4" src="/images/mem4.png" aspectRatio="portrait" rotate={2} />
+              <PhotoSlot label="Memory 1" src="/our2ndanniversary/images/mem1.png" aspectRatio="portrait" rotate={-1.5} />
+              <PhotoSlot label="Memory 2" src="/our2ndanniversary/images/mem2.png" aspectRatio="portrait" rotate={1} />
+              <PhotoSlot label="Memory 3" src="/our2ndanniversary/images/mem3.png" aspectRatio="portrait" rotate={-1} />
+              <PhotoSlot label="Memory 4" src="/our2ndanniversary/images/mem4.png" aspectRatio="portrait" rotate={2} />
             </div>
           </FadeUp>
 
@@ -520,10 +520,10 @@ export default function AnniversaryPage() {
           <FadeUp>
             <p className="font-script text-2xl text-center mb-8" style={{ color: "#9b72c9" }}>Adventures Together</p>
             <div className="grid grid-cols-2 gap-4">
-              <PhotoSlot label="Our biggest adventure" src="/images/A1.png" aspectRatio="landscape" rotate={-1} />
-              <PhotoSlot label="A favourite trip" src="/images/A2.png" aspectRatio="landscape" rotate={1} />
-              <PhotoSlot label="Just exploring" src="/images/A3.png" aspectRatio="landscape" rotate={0.5} />
-              <PhotoSlot label="Somewhere beautiful" src="/images/A4.png" aspectRatio="landscape" rotate={-0.5} />
+              <PhotoSlot label="Our biggest adventure" src="/our2ndanniversary/images/A1.png" aspectRatio="landscape" rotate={-1} />
+              <PhotoSlot label="A favourite trip" src="/our2ndanniversary/images/A2.png" aspectRatio="landscape" rotate={1} />
+              <PhotoSlot label="Just exploring" src="/our2ndanniversary/images/A3.png" aspectRatio="landscape" rotate={0.5} />
+              <PhotoSlot label="Somewhere beautiful" src="/our2ndanniversary/images/A4.png" aspectRatio="landscape" rotate={-0.5} />
             </div>
           </FadeUp>
 
@@ -571,7 +571,7 @@ export default function AnniversaryPage() {
                 className="bg-white p-3 pb-10 shadow-lg"
                 style={{ border: "1px solid rgba(0,0,0,0.06)" }}
               >
-                <PhotoSlot label="The happiest day" src="/images/H1.png" aspectRatio="square" />
+                <PhotoSlot label="The happiest day" src="/our2ndanniversary/images/H1.png" aspectRatio="square" />
                 <p className="mt-3 text-center font-script" style={{ color: "#c9748f", fontSize: "0.95rem" }}>The Saraswati Pujo</p>
               </motion.div>
               <motion.div
@@ -582,7 +582,7 @@ export default function AnniversaryPage() {
                 className="bg-white p-3 pb-10 shadow-lg"
                 style={{ border: "1px solid rgba(0,0,0,0.06)" }}
               >
-                <PhotoSlot label="I love this one" src="/images/H2.png" aspectRatio="square" />
+                <PhotoSlot label="I love this one" src="/our2ndanniversary/images/H2.png" aspectRatio="square" />
                 <p className="mt-3 text-center font-script" style={{ color: "#c9748f", fontSize: "0.95rem" }}>I love this one</p>
               </motion.div>
               <motion.div
@@ -593,7 +593,7 @@ export default function AnniversaryPage() {
                 className="bg-white p-3 pb-10 shadow-lg"
                 style={{ border: "1px solid rgba(0,0,0,0.06)" }}
               >
-                <PhotoSlot label="Remember this?" src="/images/H3.png" aspectRatio="square" />
+                <PhotoSlot label="Remember this?" src="/our2ndanniversary/images/H3.png" aspectRatio="square" />
                 <p className="mt-3 text-center font-script" style={{ color: "#c9748f", fontSize: "0.95rem" }}>Look at usss🥹🥹</p>
               </motion.div>
               <motion.div
@@ -604,7 +604,7 @@ export default function AnniversaryPage() {
                 className="bg-white p-3 pb-10 shadow-lg"
                 style={{ border: "1px solid rgba(0,0,0,0.06)" }}
               >
-                <PhotoSlot label="Pure magic" src="/images/H4.png" aspectRatio="square" />
+                <PhotoSlot label="Pure magic" src="/our2ndanniversary/images/H4.png" aspectRatio="square" />
                 <p className="mt-3 text-center font-script" style={{ color: "#c9748f", fontSize: "0.95rem" }}>The Skincare🤣</p>
               </motion.div>
             </div>
@@ -614,7 +614,7 @@ export default function AnniversaryPage() {
             <FadeUp delay={0.1}>
               <div className="grid md:grid-cols-2 gap-10 items-center">
                 <div>
-                  <PhotoSlot label="Photo from: [Favourite Moment #1]" src="/images/F_mem1.png" aspectRatio="landscape" rotate={-1.5} />
+                  <PhotoSlot label="Photo from: [Favourite Moment #1]" src="/our2ndanniversary/images/F_mem1.png" aspectRatio="landscape" rotate={-1.5} />
                 </div>
                 <div className="space-y-4">
                   <p className="text-xs font-light tracking-widest uppercase" style={{ color: "#5b8ec4" }}>Jadavpur</p>
@@ -627,7 +627,7 @@ export default function AnniversaryPage() {
             <FadeUp delay={0.1}>
               <div className="grid md:grid-cols-2 gap-10 items-center md:[direction:rtl]">
                 <div className="md:[direction:ltr]">
-                  <PhotoSlot label="Photo from: [Favourite Moment #2]" src="/images/F_mem2.png" aspectRatio="landscape" rotate={1.5} />
+                  <PhotoSlot label="Photo from: [Favourite Moment #2]" src="/our2ndanniversary/images/F_mem2.png" aspectRatio="landscape" rotate={1.5} />
                 </div>
                 <div className="space-y-4 md:[direction:ltr]">
                   <p className="text-xs font-light tracking-widest uppercase" style={{ color: "#5b8ec4" }}>Home</p>
@@ -640,7 +640,7 @@ export default function AnniversaryPage() {
             <FadeUp delay={0.1}>
               <div className="grid md:grid-cols-2 gap-10 items-center">
                 <div>
-                  <PhotoSlot label="Photo from: [Favourite Moment #3]" src="/images/F_mem3.png" aspectRatio="landscape" rotate={-1.5} />
+                  <PhotoSlot label="Photo from: [Favourite Moment #3]" src="/our2ndanniversary/images/F_mem3.png" aspectRatio="landscape" rotate={-1.5} />
                 </div>
                 <div className="space-y-4">
                   <p className="text-xs font-light tracking-widest uppercase" style={{ color: "#5b8ec4" }}>Konnagar</p>
@@ -656,11 +656,11 @@ export default function AnniversaryPage() {
           <FadeUp>
             <p className="font-script text-2xl text-center mb-8" style={{ color: "#5b8ec4" }}>More Beautiful Memories</p>
             <div className="grid grid-cols-3 md:grid-cols-5 gap-3">
-              <PhotoSlot label="Memory 1" src="/images/mem_ch3_1.png" aspectRatio="square" rotate={-1} />
-              <PhotoSlot label="Memory 2" src="/images/mem_ch3_2.png" aspectRatio="square" rotate={0} />
-              <PhotoSlot label="Memory 3" src="/images/mem_ch3_3.png" aspectRatio="square" rotate={1} />
-              <PhotoSlot label="Memory 4" src="/images/mem_ch3_4.png" aspectRatio="square" rotate={-1} />
-              <PhotoSlot label="Memory 5" src="/images/mem_ch3_5.png" aspectRatio="square" rotate={0} />
+              <PhotoSlot label="Memory 1" src="/our2ndanniversary/images/mem_ch3_1.png" aspectRatio="square" rotate={-1} />
+              <PhotoSlot label="Memory 2" src="/our2ndanniversary/images/mem_ch3_2.png" aspectRatio="square" rotate={0} />
+              <PhotoSlot label="Memory 3" src="/our2ndanniversary/images/mem_ch3_3.png" aspectRatio="square" rotate={1} />
+              <PhotoSlot label="Memory 4" src="/our2ndanniversary/images/mem_ch3_4.png" aspectRatio="square" rotate={-1} />
+              <PhotoSlot label="Memory 5" src="/our2ndanniversary/images/mem_ch3_5.png" aspectRatio="square" rotate={0} />
             </div>
           </FadeUp>
 
@@ -733,7 +733,7 @@ export default function AnniversaryPage() {
                   I will not be perfect, but I will always try. I will always be there for you, in good times and bad. I promise to make you laugh, to support your dreams, and to cherish every moment we have together.
                 </p>
               </div>
-              <PhotoSlot label="Us in the future" src="/images/Us_future.png" aspectRatio="portrait" rotate={1.5} />
+              <PhotoSlot label="Us in the future" src="/our2ndanniversary/images/Us_future.png" aspectRatio="portrait" rotate={1.5} />
             </div>
           </FadeUp>
 
@@ -787,10 +787,10 @@ export default function AnniversaryPage() {
           <FadeUp>
             <p className="font-script text-2xl text-center mb-8" style={{ color: "#7aad6e" }}>Here&apos;s to Many More</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <PhotoSlot label="Looking forward" src="/images/look_fwd.png" aspectRatio="square" rotate={-1} />
-              <PhotoSlot label="Our future" src="/images/future.png" aspectRatio="square" rotate={1.5} />
-              <PhotoSlot label="Dream photo" src="/images/dream.png" aspectRatio="square" rotate={-1.5} />
-              <PhotoSlot label="Always us" src="/images/always.png" aspectRatio="square" rotate={1} />
+              <PhotoSlot label="Looking forward" src="/our2ndanniversary/images/look_fwd.png" aspectRatio="square" rotate={-1} />
+              <PhotoSlot label="Our future" src="/our2ndanniversary/images/future.png" aspectRatio="square" rotate={1.5} />
+              <PhotoSlot label="Dream photo" src="/our2ndanniversary/images/dream.png" aspectRatio="square" rotate={-1.5} />
+              <PhotoSlot label="Always us" src="/our2ndanniversary/images/always.png" aspectRatio="square" rotate={1} />
             </div>
           </FadeUp>
 
