@@ -10,11 +10,11 @@ interface Song {
 }
 
 const playlist: Song[] = [
-  { title: 'Amaro Porano Jaha Chay', artist: 'Arijit Singh', src: '/music/song1.mp3' },
-  { title: 'Tum Ho Paas Mere', artist: 'Mohit Chauhan', src: '/music/song2.mp3' },
-  { title: 'Agar Tum Saath Ho', artist: 'Arijit Singh', src: '/music/song3.mp3' },
-  { title: 'Iris', artist: 'Goo Goo Dolls', src: '/music/song4.mp3' },
-  { title: 'Rewrite The Stars', artist: 'Zendaya x Zac Efron', src: '/music/song5.mp3' },
+  { title: 'Amaro Porano Jaha Chay', artist: 'Arijit Singh', src: '/our2ndanniversary/music/song1.mp3' },
+  { title: 'Tum Ho Paas Mere', artist: 'Mohit Chauhan', src: '/our2ndanniversary/music/song2.mp3' },
+  { title: 'Agar Tum Saath Ho', artist: 'Arijit Singh', src: '/our2ndanniversary/music/song3.mp3' },
+  { title: 'Iris', artist: 'Goo Goo Dolls', src: '/our2ndanniversary/music/song4.mp3' },
+  { title: 'Rewrite The Stars', artist: 'Zendaya x Zac Efron', src: '/our2ndanniversary/music/song5.mp3' },
 ];
 
 export default function MusicPlayer() {
