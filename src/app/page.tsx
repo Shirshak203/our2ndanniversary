@@ -430,7 +430,7 @@ export default function AnniversaryPage() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <PhotoSlot label="Early days photo" src="/our2ndanniversary/images/Early_girl.png" aspectRatio="square" rotate={1} />
               <PhotoSlot label="A first adventure" src="/our2ndanniversary/images/ganga_ghat.png" aspectRatio="square" rotate={-1} />
-              <PhotoSlot label="Just us" src="/images/mine.png" aspectRatio="square" rotate={1.5} />
+              <PhotoSlot label="Just us" src="/our2ndanniversary/images/mine.png" aspectRatio="square" rotate={1.5} />
               <PhotoSlot label="A favourite place" src="/our2ndanniversary/images/fav_place.png" aspectRatio="square" rotate={-0.5} />
               <PhotoSlot label="That moment" src="/our2ndanniversary/images/moment.png" aspectRatio="square" rotate={1} />
               <PhotoSlot label="The beginning of us" src="/our2ndanniversary/images/uss_2.png" aspectRatio="square" rotate={-1.5} />
